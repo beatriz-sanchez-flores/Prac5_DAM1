@@ -75,3 +75,23 @@ En esta tarea, ingresa nuevos valores y cambia los valores de los atributos impo
 <img src="Medios\9.PNG"/>
 
 * Height Control: Este control especifica el atributo layout_height y aparece en dos segmentos en los lados superior e inferior del cuadrado. Los ángulos indican que este control está configurado en wrap_content, lo que significa que la Vista se expandirá verticalmente según sea necesario para adaptarse a su contenido. El "8" indica un margen estándar establecido en 8 dp.
+
+* Width Control: Este control especifica layout_width y aparece en dos segmentos en los lados izquierdo y derecho del cuadrado. Los ángulos indican que este control está configurado en wrap_content, lo que significa que la Vista se expandirá horizontalmente según sea necesario para adaptarse a su contenido, hasta un margen de 8 dp.
+
+* Botón de cierre del panel atributos. Haga clic para cerrar el panel
+
+### Siga los siguientes pasos:
+
+* Seleccione el botón superior en el panel Árbol de componentes.
+
+* Haga clic en la pestaña Atributos en el lado derecho de la ventana del editor de layout.
+
+<img src="Medios\10.PNG"/>
+
+* Haga clic en el control de ancho las veces que sea necesario; debe lograr el valor match_constraint para el layout_width
+
+<img src="Medios\11.png"/>
+
+* Realice la misma modificación para el botón inferior, el resultado es que ambos botones deben cubrir todo el ancho del constraint.
+
+<img src="Medios\12.png"/>
