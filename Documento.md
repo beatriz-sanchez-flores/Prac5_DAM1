@@ -180,15 +180,25 @@ Luego de cambiar el nombre nos va a enviar una ventana de rename y le damos Refa
 
 * Establezca el textStyle a bold
 
-
+<img src="Medios\33.png"/>
 
 * Cambie layout_width y layout_height a match_constraint
 
+<img src="Medios\34.png"/>
+
+<img src="Medios\35.PNG"/>
+
 * Establezca el textColor a @color/colorPrimary
+
+<img src="Medios\36.PNG"/>
 
 * Establezca un valor preferido al atributo background, opcional el #0F49CD
 
+<img src="Medios\37.PNG"/>
+
 * Establezca el valor gravity a center_vertical
+
+
 
 ### Tarea 1.4: Editando el layout en el XML
 
