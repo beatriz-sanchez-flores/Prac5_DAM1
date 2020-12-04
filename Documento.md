@@ -60,7 +60,7 @@ Acá tendriamos que eliminar dl botton de Hola wordl.
 
 * Pruebe borrar todos los constraints o restricciones de un elemento, seleccionando y pasando el puntero sobre este y seleccionar cleal all constraints
 
-<img src="Medios\7.PNG"/>
+<img src="Medios\13.PNG"/>
 
 ### Tarea 1.3: Cambiar los atributos de los elementos de la interfaz de usuario
 
@@ -84,6 +84,8 @@ En esta tarea, ingresa nuevos valores y cambia los valores de los atributos impo
 
 * Seleccione el botón superior en el panel Árbol de componentes.
 
+<img src="Medios\14.png"/>
+
 * Haga clic en la pestaña Atributos en el lado derecho de la ventana del editor de layout.
 
 <img src="Medios\10.PNG"/>
@@ -95,3 +97,103 @@ En esta tarea, ingresa nuevos valores y cambia los valores de los atributos impo
 * Realice la misma modificación para el botón inferior, el resultado es que ambos botones deben cubrir todo el ancho del constraint.
 
 <img src="Medios\12.png"/>
+
+<img src="Medios\15.PNG"/>
+
+* Establezca wrap_content al layout_height, también puede usar un valor fijo de 16dp
+
+<img src="Medios\16.PNG"/>
+
+### Cambiar los atributos de Button
+
+* Para identificar cada vista de forma única dentro de un diseño de actividad, cada vista o subclase de vista (como el botón) necesita una identificación única (id). Y para ser de alguna utilidad, los elementos del botón necesitan texto. Los elementos de vista también pueden tener fondos que pueden ser colores o imágenes.
+
+* El panel Atributos ofrece acceso a todos los atributos que puede asignar a un elemento de Vista. Puede ingresar valores para cada atributo, como los atributos android:id, background, textColor y text.
+
+### Siga los siguientes pasos:
+
+* Después de seleccionar el primer botón, edite el campo ID en la parte superior del panel Atributos a button_toast para el atributo android: id, que se usa para identificar el elemento en el layout.
+
+<img src="Medios\17.PNG"/>
+
+Nos va a tirar la siguiente ventana  y le vamos a dar clic en Refactor
+
+<img src="Medios\18.PNG"/>
+
+* Establezca el atributo de background en @color/colorPrimary. (A medida que ingresa @c, aparecen opciones para una fácil selección). Si no está establecido el color, hágalo en colors.xml
+
+<img src="Medios\20.PNG"/> 
+
+<img src="Medios\21.PNG"/>
+
+* Establezca el atributo textColor en @android:color/white.
+
+<img src="Medios\22.PNG"/>
+
+* Edite el atributo text en Toast.
+
+<img src="Medios\23.PNG"/>
+
+* Selecciona el segundo botón y edite su campo id a button_count
+
+<img src="Medios\24.PNG"/>
+
+* Edite el atributo text del segundo botón a Contar
+
+<img src="Medios\25.PNG"/>
+
+* Cambie el color de texto y de fondo a los botones
+
+<img src="Medios\26.PNG"/>
+
+### Agregar el elemento TextView y sus atributos correspondientes
+
+Una habilidad de usar ConstraintLayout es que puedes agregar elementos en cualquier parte del espacio disponible y establecer sus restricciones con cualquier elemento próximo al que se está agregando.
+
+* Desde el panel Palette y el apartado Common, agregue un elemento View TextView y establezca el atributo id a show_count.
+
+<img src="Medios\27.PNG"/>
+
+<img src="Medios\28.PNG"/>
+
+Luego de cambiar el nombre nos va a enviar una ventana de rename y le damos Refactor.
+
+<img src="Medios\29.PNG"/>
+
+* Establezca las restricciones del TextView, la parte superior con el botón de Toast y su parte inferior con el botón contador.
+
+<img src="Medios\27.PNG"/>
+
+* Establezca las restricciones izquierda y derecha del elemento TextView al lado correspondiente al contenedor padre.
+
+<img src="Medios\27.PNG"/>
+
+* Establezca el valor text a 0
+
+<img src="Medios\30.PNG"/>
+
+* Establezca el valor textSize a 160sp
+
+<img src="Medios\31.PNG"/>
+
+<img src="Medios\32.PNG"/>
+
+* Establezca el textStyle a bold
+
+
+
+* Cambie layout_width y layout_height a match_constraint
+
+* Establezca el textColor a @color/colorPrimary
+
+* Establezca un valor preferido al atributo background, opcional el #0F49CD
+
+* Establezca el valor gravity a center_vertical
+
+### Tarea 1.4: Editando el layout en el XML
+
+¡El diseño de la aplicación Hello Toast está casi terminado! Sin embargo, aparece un signo de exclamación junto a cada elemento de la interfaz de usuario en el árbol de componentes (Component Tree). Pase el puntero sobre estos signos de exclamación para ver los mensajes de advertencia, como se muestra a continuación. Aparece la misma advertencia para los tres elementos: las cadenas codificadas deben usar recursos.
+
+Edite el fichero strings.xml que se encuentra en la carpeta res/values:
+
+<img src="Medios\27.PNG"/>
