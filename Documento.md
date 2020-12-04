@@ -198,7 +198,7 @@ Luego de cambiar el nombre nos va a enviar una ventana de rename y le damos Refa
 
 * Establezca el valor gravity a center_vertical
 
-
+<img src="Medios\38.PNG"/>
 
 ### Tarea 1.4: Editando el layout en el XML
 
@@ -206,4 +206,11 @@ Luego de cambiar el nombre nos va a enviar una ventana de rename y le damos Refa
 
 Edite el fichero strings.xml que se encuentra en la carpeta res/values:
 
-<img src="Medios\27.PNG"/>
+Siga los siguientes pasos:
+
+* Abra el fichero activity_main.xml y cambie el modo solamente a código
+
+<img src="Medios\39.PNG"/>
+
+* Cambie el valor de text del TextView a un @string/count_initial_value
+
