@@ -214,3 +214,40 @@ Siga los siguientes pasos:
 
 * Cambie el valor de text del TextView a un @string/count_initial_value
 
+
+<img src="Medios\41.PNG"/>
+
+* Cambie el valor de text del botón superior a @ string / button_label_toast 
+
+<img src="Medios\40.PNG"/>
+
+### Tarea 1.5: Agregar el manejador del evento onClick para los botones
+
+* Establezca el siguiente código al botón que tenga como id button_toast, antes de cerrarlo
+
+<img src="Medios\42.PNG"/>
+
+* Establezca el siguiente código al botón que tenga como id button_count , antes de cerrarlo
+
+<img src="Medios\43.PNG"/>
+
+* Abra el MainActivity.kt y agregue el siguiente código
+
+<img src="Medios\44.PNG"/>
+
+* Agregue el siguiente código al método showToast.
+
+<img src="Medios\45.PNG"/>
+
+* Agregue el siguiente código al método countUp.
+
+<img src="Medios\46.PNG"/>
+
+* Aprender los resultados ejecutando la aplicación y mostrando el mensaje generado con el valor Hola soy un Toast .
+
+Muestre la aplicación funcionando con el contador funcionando el contador y el mensaje Toast mostrándose cada vez que el usuario de Clic
+
+<img src="Medios\40.jpg"/>
+
+
+LIsto profesor.
